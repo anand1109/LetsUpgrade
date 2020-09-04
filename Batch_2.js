@@ -27,5 +27,5 @@ for (i=0; i<=Str.length-1; i++)
 let ReverseStr = ['anand','prakash','gaurav','pushkar'];
 for (var i=ReverseStr.length; i<=ReverseStr.length-1 && i==0; i--)
 {
-    console.log(ReverseStr['a']);
+    console.log(ReverseStr[i]);
 }
