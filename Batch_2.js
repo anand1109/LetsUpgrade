@@ -22,7 +22,7 @@ for (i=0; i<=Str.length-1; i++)
 };
 
 
-// Question-5 program to display a arrar in reverse order
+// Question-5 program to display a array in reverse order
 
 let ReverseStr = ['anand','prakash','gaurav','pushkar'];
 for (var i=ReverseStr.length; i<=ReverseStr.length-1 && i==0; i--)
