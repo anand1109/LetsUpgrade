@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+        h1{
+            text-align: center;
+            margin: 10px;
+        }
+
+         .input{
+             text-align: center;
+             margin-top: 10px;
+             padding: 10px;
+         }
+         #name{
+             text-align: center;
+             padding: 5px;
+         }
+
+        #city{
+            text-align: center;
+            padding: 5px;
+        }
+
+        .table{
+           width: 100%;
+            margin-top: 20px;
+        }
+        .table th,td{
+            text-align: center;
+            padding: 10px;
+        }
+
+        button{
+            padding: 5px;
+            width: 80px;
+            border: 5px;
+        }
+
+
+    </style>
+    <title></title>
+</head>
+<body>
+
+<div>
+<h1>Employee Management System</h1>
+
+    <div class="input">
+        <input id="name" onkeyup="searchData()" type="text" placeholder="search name here">
+        <input id="city" onkeyup="searchCity()" type="text" placeholder="search city here">
+
+    </div>
+
+<table border="1" class="table" cellspacing="0">
+    <thead>
+
+        <tr>
+            <th>SN NO</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>CITY</th>
+            <th>SALARY</th>
+            <th>ACTION</th>
+        </tr>
+
+    </thead>
+    <tbody class="tdata"></tbody>
+</table>
+</div>
+
+
+<script src="Project.js"></script>
+</body>
+</html>
